@@ -32,3 +32,7 @@ Following the creation of [AVR-DMX](https://github.com/JMAlego/AVR-DMX) for Ardu
 ## Rough Costing
 
 It should be possible to build for around £10 or less (though you may need to make a few). You'll find the most expensive part is the Neutrik NC5FAH-DA (or compatible) XLR 5-pin connector.
+
+## License
+
+Hardware designs are licensed under the [Creative Commons Attribution 4.0 International Licence](https://creativecommons.org/licenses/by/4.0/).
