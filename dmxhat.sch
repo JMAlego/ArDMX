@@ -775,4 +775,56 @@ Wire Wire Line
 	4250 6100 4550 6100
 Wire Wire Line
 	4250 6200 4550 6200
+$Comp
+L Connector:XLR3 J3
+U 1 1 5EEBDB84
+P 6300 1400
+F 0 "J3" H 6300 1765 50  0000 C CNN
+F 1 "XLR3" H 6300 1674 50  0000 C CNN
+F 2 "Connector_Audio:Jack_XLR_Neutrik_NC3FAH1-DA_Horizontal" H 6300 1400 50  0001 C CNN
+F 3 " ~" H 6300 1400 50  0001 C CNN
+	1    6300 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5EEBDB8A
+P 5850 2150
+F 0 "#PWR?" H 5850 1900 50  0001 C CNN
+F 1 "GND" H 5855 1977 50  0000 C CNN
+F 2 "" H 5850 2150 50  0001 C CNN
+F 3 "" H 5850 2150 50  0001 C CNN
+	1    5850 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 1400 5850 1400
+Wire Wire Line
+	5850 1400 5850 2150
+Text Label 7050 1400 0    50   ~ 0
+DMX-
+Text Label 7050 1550 0    50   ~ 0
+Termination-
+Wire Wire Line
+	7050 1550 6750 1550
+Wire Wire Line
+	6750 1550 6750 1400
+Wire Wire Line
+	6750 1400 7050 1400
+Wire Wire Line
+	6300 2000 6300 1850
+Wire Wire Line
+	6600 2000 6300 2000
+Text Label 6600 1850 0    50   ~ 0
+Termination+
+Text Label 6600 2000 0    50   ~ 0
+DMX+
+Wire Wire Line
+	6300 1850 6600 1850
+Wire Wire Line
+	6300 1700 6300 1850
+Connection ~ 6300 1850
+Wire Wire Line
+	6600 1400 6750 1400
+Connection ~ 6750 1400
 $EndSCHEMATC

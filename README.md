@@ -3,7 +3,7 @@
 *DMX512 Interface Shield*
 
 ## Introduction
-![Image of the DMX Shield](./dmxhat.jpg)
+![Image of the DMX Shield](./dmxhat.png)
 
 Following the creation of [AVR-DMX](https://github.com/JMAlego/AVR-DMX) for Arduino, I decided that my first foray into circuit board design should be the creation of a shield to work with AVR-DMX to allow proper interfacing of an Arduino to a DMX network.
 
